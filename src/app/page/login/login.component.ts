@@ -9,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  public nome!: String;
+  public sobrenome!: String;
+
+  ngOnInit():void{
+
+    this.nome = "Hildialex";
+
+  }
 }
